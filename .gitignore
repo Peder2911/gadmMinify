@@ -1,0 +1,9 @@
+
+out/*
+!out/.gitkeep
+gpkg/*
+!gpkg/.gitkeep
+raw/*
+!raw/.gitkeep
+*.py[cod]
+__pycache__/*

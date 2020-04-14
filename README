@@ -1,0 +1,25 @@
+
+These scripts build a slimmed down version of the GADM dataset with ADM_1
+administrative units.
+
+Place the gadm gpkg in the raw folder and run the scripts _in succession_.
+
+These shapes should be small enough to serve on the web.
+
+Usage: 
+
+--- 
+
+1 ) Run smallify (takes a LONG time)
+    This writes each country's adm-units as geojson to ./out
+2 ) Run buildGpkg 
+    This pushes the geoJSON shapes to a gpkg database.
+3 ) Run addProperMetadata
+    This creates a second gpkg with proper metadata 
+
+---
+
+Todo: Proper metadata.
+    
+
+
